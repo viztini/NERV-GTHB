@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "NervGit",
+  "version": "1.0",
+  "description": "A Neon Genesis Evangelion 'Nerv' theme for GitHub.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "css": ["nerv-theme.css"]
+    }
+  ]
+}

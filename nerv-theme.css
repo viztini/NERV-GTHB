@@ -1,0 +1,128 @@
+/* NervGit - A NERV-inspired theme for GitHub */
+
+/* Main body and background */
+body {
+    background-color: #1A1A1A !important; /* Dark Gray */
+    color: #E0E0E0 !important; /* Light Gray */
+}
+
+/* Header */
+.header {
+    background-color: #D40000 !important; /* Red */
+    border-bottom: 1px solid #FF0000 !important; /* Lighter Red Border */
+}
+
+.header-logo-invertocat {
+    color: #E0E0E0 !important; /* Light Gray */
+}
+
+/* Links */
+a {
+    color: #FF0000 !important; /* Red */
+}
+
+a:hover {
+    color: #E0E0E0 !important; /* Light Gray */
+}
+
+/* Buttons */
+.btn {
+    background-color: #D40000 !important; /* Red */
+    color: #E0E0E0 !important; /* Light Gray */
+    border: 1px solid #FF0000 !important; /* Lighter Red Border */
+}
+
+.btn:hover {
+    background-color: #FF0000 !important; /* Lighter Red */
+}
+
+/* Repository header */
+.repohead {
+    background-color: #333333 !important; /* Medium Gray */
+    border-bottom: 1px solid #808080 !important; /* Gray Border */
+}
+
+/* Borders */
+.border-bottom {
+    border-bottom: 1px solid #808080 !important; /* Gray Border */
+}
+
+.border-top {
+    border-top: 1px solid #808080 !important; /* Gray Border */
+}
+
+/* Input fields */
+.form-control {
+    background-color: #333333 !important; /* Medium Gray */
+    color: #E0E0E0 !important; /* Light Gray */
+    border: 1px solid #808080 !important; /* Gray Border */
+}
+
+/* Accent color for specific elements (e.g., counters, highlights) */
+.Counter {
+    background-color: #D40000 !important; /* Red */
+    color: #E0E0E0 !important; /* Light Gray Text */
+}
+
+/* Additional elements for a more complete theme */
+
+/* Navigation tabs */
+.UnderlineNav-item.selected {
+    border-bottom-color: #FF0000 !important; /* Red underline for selected tab */
+    color: #E0E0E0 !important;
+}
+
+.UnderlineNav-item {
+    color: #E0E0E0 !important;
+}
+
+/* Code blocks */
+.blob-wrapper, .highlight {
+    background-color: #222222 !important; /* Darker Gray for code blocks */
+    border: 1px solid #808080 !important;
+}
+
+/* Issues/PRs status labels */
+.State--open {
+    background-color: #D40000 !important; /* Red for open status */
+    color: #E0E0E0 !important;
+}
+
+.State--closed {
+    background-color: #808080 !important; /* Gray for closed status */
+    color: #1A1A1A !important;
+}
+
+.State--merged {
+    background-color: #333333 !important; /* Medium Gray for merged status */
+    color: #E0E0E0 !important;
+}
+
+/* Sidebar navigation */
+.Box-row.navigation-item.selected {
+    background-color: #333333 !important;
+    border-left: 2px solid #FF0000 !important;
+}
+
+.Box-row.navigation-item {
+    color: #E0E0E0 !important;
+}
+
+/* Flash messages */
+.flash-warn {
+    background-color: #FFA000 !important; /* Orange for warnings */
+    color: #1A1A1A !important;
+    border-color: #FF8C00 !important;
+}
+
+.flash-error {
+    background-color: #D40000 !important; /* Red for errors */
+    color: #E0E0E0 !important;
+    border-color: #FF0000 !important;
+}
+
+.flash-success {
+    background-color: #D40000 !important; /* Red for success */
+    color: #E0E0E0 !important;
+    border-color: #FF0000 !important;
+}
